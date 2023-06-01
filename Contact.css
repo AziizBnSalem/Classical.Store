@@ -1,0 +1,186 @@
+:root{
+  --pink:#ffffff;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: century;
+    box-sizing: border-box;
+    outline: none;
+    border: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear ;
+}
+
+html{
+  font-size: 85.5%;
+  scroll-behavior:smooth;
+  scroll-padding-top: 10rem;
+  overflow-x: hidden;
+}
+section{
+  padding: 1rem 3%;
+}
+
+.heading{
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  margin: 3rem 0;
+  background: rgba(141, 141, 141, 0.555);
+  width: 50%;
+  
+}
+
+
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.856)),url(./Image/bigstock-Cheerful-Young-Successful-Male-452717591.jpg);
+  height: 100h;
+  background-size: cover;
+  background-position: center;
+  
+}
+.logo a{
+
+ 
+
+
+  color: #ffffff;
+  padding: 10px 15px; 
+  border: 1px ; color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 900;
+  text-shadow: rgba(0, 0, 0, 0.7);
+  
+}
+.logo span{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 2rem;
+  
+
+  color: #ffffff;
+  padding: 10px 15px; 
+  border: 1px ; color: #000000;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+
+}
+
+
+
+ul{
+  list-style: none;
+  float: right;
+  display: flex;
+  margin-top: 25px;
+  position: absolute;
+  left: 550px;
+}
+
+
+
+ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px ;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  margin: 10px;
+  font-weight: 500;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background: #ffffff94;
+  color: #000000;
+}
+
+ul li.active a {
+
+   background: #ffffff8c;
+   color: rgb(0, 0, 0);
+   list-style: none;
+
+
+   margin-top: 20px;
+   margin-right: 10px;
+}
+
+.principale{
+  max-width: 42.2rem;
+  margin: 0 auto;
+}
+
+.contact .row{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 1.5rem;
+  align-items: center;
+  width: 50%;
+}
+.contact .row form{
+  flex: 1 1 40rem;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 .5rem 1.5rem rgba(138, 138, 138, 0.082);
+  border: 1rem solid rgba(124, 119, 119, 0.493);
+  background: rgba(117, 117, 117, 0.692);
+  border-radius: .5rem;
+  
+}
+
+
+.contact .row form .box{
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: rgb(0, 0, 0);
+  text-transform: none;
+  border: .1rem solid rgb(95, 85, 85);
+  border-radius: .5rem;
+  margin: .7rem 0;
+  width: 100%;
+}
+
+.contact .row form textarea{
+  height: 15rem;
+  resize: none;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: rgba(255, 255, 255, 0.651);
+  color: rgb(65, 65, 65);
+  padding: .9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.contact .row form .box:focus{
+  border-color: var(--pink);
+}
+.btn:hover{
+  background: var(--pink);
+}
+label{
+
+  font-size: 1.7rem;
+  color: #ffffff;
+}
+
+.heading span{
+  color: var(--pink);
+}
+
